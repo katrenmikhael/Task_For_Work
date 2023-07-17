@@ -1,0 +1,29 @@
+#divChart {
+  display: block;
+  width: 870px;
+  height: 390px;
+}
+
+.nav a {
+  border: 4px;
+  border-color: black;
+}
+.star-container {
+  width: 30px;
+  height: 30px;
+}
+.line {
+  width: 90%;
+  height: 3px;
+  background-color: black;
+}
+#chart {
+  width: 115px;
+  height: 50px;
+}
+.task {
+  width: 850px;
+}
+a {
+  text-decoration: none;
+}

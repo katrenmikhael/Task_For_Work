@@ -1,0 +1,69 @@
+<!-- <div class="container">
+  <nav class="navbar navbar-expand-lg">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2 bg-light"
+          type="search"
+          placeholder=""
+          aria-label="Search"
+        />
+      </form>
+    </div>
+  </nav>
+</div> -->
+
+<div
+  class="nav-container nav navbar d-flex justify-content-between align-items-center"
+>
+  <mat-toolbar class="navbar navbar-expand-lg">
+    <mat-toolbar-row class="d-flex justify-content-between container">
+      <mat-form-field class="search-field">
+        <input
+          type="text"
+          matInput
+          placeholder="search anything..."
+          class="search-input p-0"
+        />
+        <mat-icon matSuffix class="search-icon">search</mat-icon>
+      </mat-form-field>
+
+      <div
+        class="usernotification d-flex align-items-center justify-content-between"
+      >
+        <div class="notification-section px-5">
+          <!-- <mat-icon matBadge="2" matBadgeColor="primary"
+            >notifications_none</mat-icon
+          > -->
+          <div class="position-relative">
+            <i class="fa-regular fa-bell fs-4"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle px-1 bg-primary border border-light rounded-circle"
+            >
+              2
+            </span>
+          </div>
+        </div>
+        <div class="image rounded-circle overflow-hidden me-3">
+          <img
+            src="../../assets/images.jpg"
+            class="img-fluid rounded-top w-100 h-100"
+            alt="person"
+          />
+        </div>
+        <i class="fa-solid fa-chevron-down text-primary"></i>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>

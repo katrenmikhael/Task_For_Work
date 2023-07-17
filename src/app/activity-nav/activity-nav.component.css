@@ -1,0 +1,67 @@
+#sidebarMenu {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 396px;
+  z-index: 1;
+  background-color: #fff;
+}
+.line {
+  height: 2px;
+  width: 90%;
+}
+.person {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-color: black;
+}
+.person-col {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-color: black;
+}
+.person1 {
+  left: -7px;
+  z-index: 100;
+}
+.person2 {
+  left: -14px;
+  z-index: 101;
+}
+.person3 {
+  left: -21px;
+  z-index: 102;
+}
+.call-details {
+  background-color: #5051f9;
+}
+
+.person img {
+  width: 100%;
+  height: 100%;
+}
+.image-conatiner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-conatiner .image-border {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.emoji {
+  margin-left: 12px;
+}
+.list-group {
+  padding-top: 80px;
+}

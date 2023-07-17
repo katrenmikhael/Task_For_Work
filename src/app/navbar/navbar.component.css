@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #ffffff;
+  height: 70px !important;
+  z-index: 4;
+  position: relative;
+}
+.icon-search {
+  color: #f3f7fa;
+}
+.image {
+  width: 40px;
+  height: 40px;
+}
